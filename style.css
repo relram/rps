@@ -1,0 +1,18 @@
+p {
+    font-size: 32px;
+}
+
+body {
+    text-align: center;
+}
+
+button {
+    font-size: 24px;
+}
+
+.scoreboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}

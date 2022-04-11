@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Let's Play Rock, Paper, Scissors! Choose Your Weapon.</p>
+    <div class="choices">
+        <button id="rockBtn" onclick="chooseRock()">Rock</button>
+        <button id="paperBtn" onclick="choosePaper()">Paper</button>
+        <button id="scissorsBtn" onclick="chooseScissors()">Scissors</button>
+        <p id="playerChoice"></p>
+        <p id="compChoice"></p>
+        <p id="outcome"></p>
+    </div>
+    <div class="scoreboard">
+        <p>User:</p>
+        <p id="userScore"></p>
+        <p>Computer:</p>
+        <p id="compScore"></p>
+    </div>
+    <p id="scoreCheck"></p>
+    <script src="script.js"></script>
+</body>
+</html>
